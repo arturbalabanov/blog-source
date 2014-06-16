@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Test post!"
-date:   2014-06-16 20:57:37
 categories: jekyll update
 ---
 
