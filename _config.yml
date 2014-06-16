@@ -3,7 +3,7 @@
 # 2. config.build.yml
 # 3. config.yml
 
-name: blog
+name: My blog
 description: My awesome blog
 author:
   name: Artur Balabanov
