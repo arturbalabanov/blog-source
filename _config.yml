@@ -3,11 +3,21 @@
 # 2. config.build.yml
 # 3. config.yml
 
+
 name: My blog
+title: My blog
+tagline: My awesome blog
 description: My awesome blog
+url: http://arturbalabanov.github.io
+paginate: 5
+
 author:
   name: Artur Balabanov
   email: arturbalabanov97@gmail.com
+  url: https://twitter.com/ArturBalabanov
+
+github:
+  repo: https://github.com/arturbalabanov/blog-source
 
 # Grunt handles images and assets.
 exclude: ['img', 'css', 'js', 'fonts',
