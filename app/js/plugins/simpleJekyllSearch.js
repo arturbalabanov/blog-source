@@ -25,7 +25,7 @@
 
         if(settings.jsonFile.length && searchResults.length){
             $.ajax({
-                type: "GET",
+                type: 'GET',
                 url: settings.jsonFile,
                 dataType: 'json',
                 success: function(data, textStatus, jqXHR) {
@@ -33,7 +33,7 @@
                     registerEvent();
                 },
                 error: function(x,y,z) {
-                    console.log("***ERROR in simpleJekyllSearch.js***");
+                    console.log('***ERROR in simpleJekyllSearch.js***');
                     console.log(x);
                     console.log(y);
                     console.log(z);
@@ -56,7 +56,7 @@
         function performSearch(str){
             var matches = [];
 
-            $.each(jsonData,function(i,entry){
+            $.each(jsonData,function(j,entry){
                 for(var i=0;i<properties.length;i++)
                     if(entry[properties[i]] !== undefined && entry[properties[i]].toLowerCase().indexOf(str.toLowerCase()) > 1){
                         matches.push(entry);
@@ -72,11 +72,11 @@
             searchResults.append( $(settings.searchResultsTitle) );
 
             if(m.length){
-                $.each(m,function(i,entry){
-                    if(i<settings.limit){
+                $.each(m,function(j,entry){
+                    if(j<settings.limit){
                         var output=settings.template;
                         for(var i=0;i<properties.length;i++){
-                            var regex = new RegExp("\{" + properties[i] + "\}", 'g');
+                            var regex = new RegExp('{' + properties[i] + '}', 'g');
                             output = output.replace(regex, entry[properties[i]]);
                         }
                         searchResults.append($(output));
@@ -92,5 +92,5 @@
         function clearSearchResults(){
             searchResults.children().remove();
         }
-    }
+    };
 }(jQuery));
