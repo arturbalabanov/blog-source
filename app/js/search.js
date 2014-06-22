@@ -19,6 +19,7 @@ jQuery(document).ready(function() {
   
   bs.dothis.on('click', function() {
     $('.search-wrapper').css({ display: 'block' });
+    bs.searchform.toggleClass('hidden');
     bs.searchform.toggleClass('active');
     bs.searchform.find('input').focus();
     bs.canvas.toggleClass('search-overlay');
@@ -32,6 +33,7 @@ jQuery(document).ready(function() {
 
   bs.searchform.find('input').focusout(function () {
     $('.search-wrapper').removeAttr( 'style' );
+    bs.searchform.toggleClass('hidden');
     bs.searchform.toggleClass('active');
     bs.canvas.removeClass('search-overlay');
   });
