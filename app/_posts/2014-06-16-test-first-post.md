@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Test post!"
-categories: jekyll update
+categories: test zsh asb
 ---
 
 I just want to test if everything works fine...

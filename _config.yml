@@ -44,3 +44,4 @@ markdown: kramdown
 #     coderay_css: style
 
 pygments: true
+permalink: "/:title"
