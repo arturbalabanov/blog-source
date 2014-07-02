@@ -25,16 +25,17 @@ jQuery(document).ready(function() {
     bs.canvas.toggleClass('search-overlay');
   });
   
-  // bs.close.on('click', function() {
-  //   $('.search-wrapper').removeAttr( 'style' );
-  //   bs.searchform.toggleClass('active');
-  //   bs.canvas.removeClass('search-overlay');
-  // });
-
-  bs.searchform.find('input').focusout(function () {
-    $('.search-wrapper').removeAttr( 'style' );
+  bs.close.on('click', function() {
+    $('.search-wrapper').removeAttr('style');
     bs.searchform.toggleClass('hidden');
     bs.searchform.toggleClass('active');
     bs.canvas.removeClass('search-overlay');
   });
+
+  // bs.searchform.find('input').focusout(function () {
+  //   $('.search-wrapper').removeAttr( 'style' );
+  //   bs.searchform.toggleClass('hidden');
+  //   bs.searchform.toggleClass('active');
+  //   bs.canvas.removeClass('search-overlay');
+  // });
 })( jQuery, window );
