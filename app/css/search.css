@@ -140,10 +140,10 @@ body.search-overlay:after {
 
 button.menu-button {
   position: absolute;
-  top: 10px;
-  right: 10px;
-  width: 40px;
-  height: 40px;
+  top: 1rem;
+  right: 1rem;
+  width: 35px;
+  height: 35px;
   z-index: 1000;
   font-size: 16px;
   padding: 0;
@@ -151,14 +151,13 @@ button.menu-button {
   border: 0;
   text-align: center;
   vertical-align: middle;
-  background-color: #262626;
-  color: #fff
+  background-color: #fff;
+  color: #505050;
 }
 
 button.menu-button:hover {
-  background-color: #39c492 ;
+  background-color: #505050;
   color: #fff;
-  box-shadow: rgba(0,0,0,0.2) 0 0 0 3px;
 }
 
 .post-list {

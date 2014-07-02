@@ -1,4 +1,4 @@
-/*
+lg/*
  *  ___
  * /\_ \
  * \//\ \      __      ___   __  __    ___     ___
@@ -232,6 +232,7 @@ a.sidebar-nav-item:focus {
           box-sizing: border-box;
 }
 
+.sidebar-toggle:hover,
 .sidebar-toggle:active,
 #sidebar-checkbox:checked ~ .sidebar-toggle {
   color: #fff;
