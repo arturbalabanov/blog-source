@@ -4,9 +4,11 @@ title:  "Yo Jekyll!"
 categories: jekyll update
 ---
 
-# 'Allo, 'Allo!
+## 'Allo, 'Allo!
 
 You now have
+
+<!--more-->
 
 - Jekyll
 - Sass and Compass

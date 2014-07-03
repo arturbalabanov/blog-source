@@ -8,6 +8,8 @@ I just want to test if everything works fine...
 
 А! И български работи! Бре, че як блог...
 
+<!--more-->
+
 {% highlight ruby %}
 def print_hi(name)
   puts "Hi, #{name}!"

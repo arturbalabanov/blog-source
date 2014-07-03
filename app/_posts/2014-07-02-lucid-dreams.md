@@ -15,6 +15,8 @@ dreaming. How many of you have experienced it? Ok, can someone share what
 he/she does when knows he/she is dreaming? Ok, before we explore lucid dreams
 in depth we should talk about dreams in general.
 
+<!--more-->
+
 ## Dreams
 
 We're going to answer three main questions about dreams.
