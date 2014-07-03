@@ -38,3 +38,4 @@ dist
 node_modules
 .tmp
 TODO.txt
+app/_drafts
