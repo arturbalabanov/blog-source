@@ -44,4 +44,5 @@ markdown: kramdown
 #     coderay_css: style
 
 pygments: true
+relative_permalinks: false
 permalink: "/:title/"
